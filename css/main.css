@@ -1,0 +1,278 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/manrope-v15-latin-300.woff2') format('woff2'); 
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2'); 
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/manrope-v15-latin-500.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/manrope-v15-latin-600.woff2') format('woff2'); 
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/manrope-v15-latin-700.woff2') format('woff2'); 
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: black;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    padding: 50px 0 0;
+    background-image: url("../images/bg-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 200px;
+}
+.site-logo{
+    margin-left: 350px;
+}
+.header-h1 {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.78px;
+    text-align: center;
+    
+}
+.header-btn {
+    width: 221px;
+    padding: 14px 45px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 300px;
+    margin-left: 450px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.header-btn:hover{
+    background-color: rgba(255, 255, 255, 0.242);
+    color: black;
+}
+
+
+
+
+/* section1 start */
+.section1-contant {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.contact-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.contact1-left {
+    width: 48%;
+}
+.contact1-left h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.contact1-left h2:hover{
+    color: red;
+}
+.contact1-left p{
+    color: white;
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.contact1-left p:hover{
+    color: brown;
+}
+.contact1-right {
+    width: 50%;
+    
+}
+
+.contact-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.contact2-left {
+    width: 50%;
+}
+
+.contact2-right {
+    width: 46%;
+    margin-left: 42px;
+}
+.contact2-right h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.contact2-right h2:hover{
+    color: red;
+}
+.contact2-right p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.contact2-right p:hover{
+    color: brown;
+}
+/* section1 end */
+
+/* section2 start */
+.section2-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.section2-contact-top{
+    margin-bottom: 80px;
+}
+.section2-contact-top h2{
+    color: white;
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.section2-contact-top h2:hover{
+    color: red;
+}
+.section2-contact-top p{
+    color: white;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.section2-contact-top p:hover{
+    color: brown;
+}
+.section2-contact-bottom h2{
+    color: white;
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.section2-contact-bottom h2:hover{
+    color: red;
+}
+.section2-contact-bottom p{
+    color: white;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.section2-contact-bottom p:hover{
+    color: brown;
+}
+/* section2 end */
+
+
+/* section3 start */
+.section3{
+    background-image: url("../images/section3-decor.png");
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+.section3-content{
+    margin-bottom: 200px;
+}
+.section3-content h2{
+    color: white;
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.section3-content h2:hover{
+    color: brown;
+}
+.section3-content p{
+    color: white;
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 972px;
+    transition: color 0.4s;
+    cursor: pointer;
+    
+}
+.section3-content p:hover{
+    color: brown;
+}
+/* section3 end */
+
+.footer-img{
+    margin-left: 136px;
+    margin-bottom: 100px;
+}
